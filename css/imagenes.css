@@ -1,0 +1,47 @@
+.imagenCentrar{
+	margin-left:200px;
+}
+
+.imagenCentrar1{
+	margin-left:20px;
+}
+.imagenCentrar2{
+	margin-left:380px;
+}
+
+
+.imagen{
+    height: 500px; 
+    width: 800px;
+	margin-left:300px;
+	border:5px solid orange; 
+	padding:0px; 
+	
+}
+.imagen2{
+    height: 500px; 
+    width: 800px;
+	margin-left:100px;
+	border:5px solid orange; 
+	padding:0px; 
+	
+}
+
+.imagen3{
+    height: 300px; 
+    width: 450px;
+	margin-left:10px;
+	border:5px solid orange; 
+	padding:0px; 
+	
+}
+.imagen4{
+    height: 200 px; 
+    width: 400px;
+	margin-left:30px;
+	border:5px solid orange; 
+	padding:0px; 
+	
+}
+
+
