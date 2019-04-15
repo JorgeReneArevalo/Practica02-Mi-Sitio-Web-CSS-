@@ -1,42 +1,44 @@
-1.	Para realizar la página utilizamos la herramienta Brackets. Para el presente trabajo vamos a utilizar 6 paginas la cual vamos a navegar en ellas. Para crear la primera pagina declaramos el tipo de documento para HTML y también con el encabezado de la página como se muestra a continuación:
+1.	Para realizar la página utilizamos la herramienta Visual Studio. Ya tenemos creado todo nuestra pagina web. Ahora vamos a darle estilo con CSS. lo primero que hacemos es crear una carpeta con el nombre de CSS. Luego allí vamos a crear archivos .css Para crear el diseño del index creamos un archivo .css la cual aquí vamos a darle un color al fondo, también me servirá para mover las imágenes, cambiar de color al texto y dar imagen al fondo.
+Lo primero que vamos a hacer es dar color a los títulos.
+Creamos el archivo css para escribir los colores que deseamos a las etiquetas.
  
-También añadimos un título que aparecerá en la pestana del navegador. 
-2.	Indicamos el comienzo del cuerpo de la pagina con body debajo de la etiqueta head.
  
-Luego utilizamos la etiqueta head y dentro de ella vamos a agregar una imagen y luego cerramos la etiqueta.
+Vamos a dar estilo a a nuestro texto de manera que nosotros deseamos.
+Podemos centrar con el center como se muestra en la imagen. Damos el tipo de letra con Font-Family y así podemos dar muchos estilos a nuestro texto.
+
+Este estilo nos servirá para todas las páginas de html.
+2.	Ahora vamos a dar hipervínculos ya que este me servirá para el pie de página y el menú. Damos estilo a nuestra etiqueta <a> la cual este me  permitirá dar colores a los vínculos de nuestra pagina html.
  
-Utilizamos la etiqueta nav para crear un con imágenes y me pueda movilizar en la página.
-  
-3.	Ahora utilizamos la etiqueta footer para agregar información de pie de la página. Dentro de la etiqueta footer se encuentra la etiqueta <p> la cual dentro de esta agregamos la información que deseamos. También con la etiqueta <a href="mailto:jarevalop1@est.ups.edu.ec">, con esta agregamos hipervínculos a nuestra página.
-En la siguiente imagen se demuestra cómo se utiliza las etiquetas:
+3.	Ahora creamos otro archivo .css la cual este me servirá para las imágenes. Aquí en este archivo podemos dar el tamaño a las imágenes. A continuación, mostramos la manera de dar características a las imágenes. 
  
-Así ya tenemos creado nuestra página Index.html
-4.	Procedemos a crear la siguiente página de igual manera se declara el tipo de documento y el encabezado.
  
-5.	Agregamos una imagen con img y damos la ruta en el lugar que se encuentra la imagen. En este caso tenemos creado una carpeta image la cual esta tendrá todas las imágenes de nuestra pagina.
+Con estas características voy a dar estilo a las imágenes de nuestra página html.
+4.	El siguiente archivo me permitirá dar color al fondo de nuestra página web. También creamos una clase menú para dar forma a nuestro menú de la pagina html. 
  
-Luego con la etiqueta nav y la etiqueta ul procedemos a crear un menú para nevegar en la página. Dentro de estas etiquetas utilizamos la siguiente etiqueta <li><a href="introduccion.html">Instroducción a la realidad virtual</a></li>, a esta etiqueta debemos agregarle la dirección de las otras páginas para poder navegar en la página. En la siguiente imagen se observa el uso de estas etiquetas:
-     
  
-6.	Utilizamos la etiqueta h1 y agregamos un título. Luego utilizamos la etiqueta section y dentro de esta utilizamos la etiqueta article. Agregamos información con la etiqueta p. para agregar un video utilizamos la etiqueta iframe dentro de la etiqueta article. La siguiente imagen muestra la estructura de las etiquetas mencionadas:
- 
-También utilizamos la etiqueta blockquotela cual usamos para escribir una cita textual.  
-7.	Para todas las paginas declaramos el tipo de documento y el encabezado. Detallaremos las etiquetas strong. Esta etiqueta me permite poner ya sea el titulo o el párrafo en negrita. La etiqueta b cambia a cursiva a la palabra que este dentro de la etiqueta. La etiqueta ol nos permite realizar una lista ordenada.
-La presente imagen se demuestra las etiquetas:
+También creamos la clase contenido para dar estilo a nuestros contextos.
+Luego creamos una clase para dar estilo a nuestro pie de página.
    
-Para crear una lista desordenada utilizamos la realizamos de la siguiente manera: 
+También tenemos para dar color al cuerpo de la pagina web. 
+Agregamos una imagen de fondo a nuestra pagina web, la cual para agregar la imagen utilizamos la ruta de la imagen. 
+5.	Para hacer tres columnas creamos otro archivo con las mismas características del archivo dos columnas. Igualmente damos el tamaño del borde, el margen el color al fondo y otras características que el usuario desea. 
+6.	Creamos una clase para poder mover el video a nuestro estilo.
  
-Mediante dentro de las etiquetas vamos ubicar enlaces que nos permitan navegar entre artículos la cual usamos el id’s:
+Aquí vamos a centrar el video en nuestra pagina.
+7.	Finalmente creamos un archivo css para el formulario. Dentro de este archivo damos las dimensiones para el formulario.
+ 
 
-  
-8.	Para la siguiente página también utilizamos un menú la cual esta me permite navegar entre las otras páginas.
+8.	Para que cada hoja de nuestra pagina tenga el estilo, agregamos el siguiente código para que se asome en nuestras páginas html.
  
-La etiqueta em me permite cambiar de letra a cursiva
- . 
-9.	En nuestra siguiente pagina vamos a crea una tabla. Utilizamos la etiqueta table, utilizamos el margin para que la tabla tenga margen. Dentro de la etiqueta table utilizamos la etiqueta tr la cual me permite poner en celdas el texto. 
-La siguiente imagen me demuestra la manera que se crea la tabla:
+9.	Para que se centre la imagen utilizamos el class y con el nombre que le dimos en nuestro archivo css. 
+10.	Para que ocurra cambios en el menú utilizamos el class de la siguiente manera:
+ 
+Menú con la forma, con bordes y color de fondo.
+ 
+11.	Para que el estilo de los textos se aprecie utilizamos la etiqueta <div>.
+ 
+ 
 
- 
-10.	La etiqueta aside me permite poner un texto no muy relevante:
-Estructura de <aside> es de la siguiente manera;
+12.	Ahora damos forma al pie de pagina de la siguiente manera: 
+13.	Para tener el formulario utilizamos la etiqueta <FORM> allí damos los campos que deseamos como se muestra en la imagen: 
  
