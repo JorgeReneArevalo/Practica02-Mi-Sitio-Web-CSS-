@@ -1,13 +1,13 @@
-.tabla{
+.table{
 	
-	border:10px solid;
-    border-color: green;
+	border:3px solid;
+    border-color: black;
     background-color:white;
-    border-radius:22px;
-	
+	border-radius:10px;
+
 	empty-cells: hide;
-	margin-left: 200px;	
-	border-spacing:10px;
+	margin-left: 100px;	
+	border-spacing:1px;
 	
 }
 
