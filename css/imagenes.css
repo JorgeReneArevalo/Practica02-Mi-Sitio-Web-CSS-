@@ -10,7 +10,7 @@
 }
 
 
-.imagen{
+.imag{
     height: 500px; 
     width: 800px;
 	margin-left:300px;
@@ -18,7 +18,7 @@
 	padding:0px; 
 	
 }
-.imagen2{
+.imag1{
     height: 500px; 
     width: 800px;
 	margin-left:100px;
@@ -27,7 +27,7 @@
 	
 }
 
-.imagen3{
+.imag2{
     height: 300px; 
     width: 450px;
 	margin-left:10px;
@@ -35,7 +35,7 @@
 	padding:0px; 
 	
 }
-.imagen4{
+.imag3{
     height: 200 px; 
     width: 400px;
 	margin-left:30px;

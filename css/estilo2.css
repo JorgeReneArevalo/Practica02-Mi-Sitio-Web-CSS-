@@ -18,11 +18,12 @@
 }
 
 
+
 #menu{
-    width: 10%; 	 
-    border:10px solid;
-    border-color: aqua;
-    background-color:white;
+    width: 12%; 	 
+    border:5px solid;
+    border-color:cadetblue;
+    background-color:floralwhite;
     border-radius:22px;
     
 
@@ -30,34 +31,35 @@
     float:left;
 
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    font-size: 15pt;
+    font-size: 14pt;
     
     
 
 
 }
-
 #contenido{
-    width:50%;
+    width:60%;
     
-    border-width: 10px; 
+    border-width: 5px; 
     border-style: solid;
-    border-color:orange  ;
-
+    border-color:coral;
+    background-color:white;
     padding: 5px 5px 10px 5px;
     float:left;
     
     margin-left: 10px;
 }
-#lateral{
-    width: 30%;  
-    	
-    border-width: 10px; 
-    border-style:solid;
-    border-color: orange;
 
-    padding: 5px 5px 10px 10px;
-    margin-left: 10px;
+
+#lateral{
+    width: 22%;  
+    	
+    border-width: 5px; 
+    border-style:solid;
+    border-color:coral;
+    background-color:white;
+    padding: 2px 2px 2px 2px;
+    margin-left: 9px;
     float:left;
 
 }
@@ -73,23 +75,23 @@
     /*
     Altura de la caja
     */
-    height: 100px;
+    height: 150px;
     /*
     Margen desde la izquierda
     */
-    margin-left:10px;
+    margin-left:15px;
     /*
     Margen de la parte superior
     */
-    margin-top: 10px;
+    margin-top: 15px;
     /*
     Color del borde
     */
-    border-color:blue;
+    border-color:chocolate;
     /*
     Tamaño del borde
     */
-    border-width: 10px; 
+    border-width: 5px; 
     /*
     Estilo del borde
     */
@@ -99,19 +101,17 @@
     */
     padding: 5px 5px 5px 20px;
     
-    float:left;
-    
-
-    
-
+    float:left;  
 
 }
+
+
 body {
     background-color: #F5F5F5;
     }
 body{
-	background-image:center;
-    background-image: url("../images/totus.jpg" );
+    background-image: url("../imges/principal.jpg" );
     background-repeat: no-repeat;
     background-size:cover ;
 }
+

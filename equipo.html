@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
     <!--
     New Perspectives on HTML5 and CSS3, 7th Edition
@@ -11,89 +12,140 @@
 
     Filename: ct_reviews.html
    -->
-   <title>Realidad Virtual</title>
-   <meta charset="utf-8" />
+    <title>Realidad Virtual</title>
+    <meta charset="utf-8" />
+    <link href="css/titulos.css" rel="stylesheet" />
+    <link href="css/hipervinculos.css" rel="stylesheet" />
+    <link href="css/imagenes.css" rel="stylesheet" />
+    <link href="css/estilo1.css" rel="stylesheet" />
 </head>
 
 <body>
     <header>
-        
-            <a href= "index.html"><img src="imges/LOGO%20REALIDAD-VIRTUAL.png" alt="Historia de la realidad virtual" /></a>
-        
-    </header>
-    
 
-    <nav>
+        <a class="imagenCentrar" href="index.html"><img src="imges/LOGO%20REALIDAD-VIRTUAL.png"
+                alt="Historia de la realidad virtual" /></a>
+
+    </header>
+
+
+    <nav id="menu">
         <ul>
             <li><a href="introduccion.html">Instroducción a la realidad virtual</a></li>
-            <li><a href="historia.html">Historia</a></li>    
-            <li><a href="equipo.html">Equipos utilizados</a></li>    
-            <li><a href="niveles.html">Niveles de tecnologia</a></li>    
-            <li><a href="elementos.html">Elementos básicos</a></li>        
+            <li><a href="historia.html">Historia</a></li>
+            <li><a href="equipo.html">Equipos utilizados</a></li>
+            <li><a href="niveles.html">Niveles de tecnologia</a></li>
+            <li><a href="elementos.html">Elementos básicos</a></li>
         </ul>
     </nav>
-    
-    <h1>Equipos utilizados para la realidad virtual</h1>
-    
-    <section>
-        
-        <article>
-            
-            
-            <h3><strong>Para visión</strong></h3>
-            <img src="imges/vision1.jpg" alt="Equipos utilizados para la realidad virtual" />
-            <img src="imges/vision2.jpeg"  width="500" height="300" alt="Equipos utilizados para la realidad virtual2" />
 
-            
-            <p>La realidad virtual en el área de la visión trabaja básicamente con dos tipos de implementos: cascos y boom, este último es un equipo que consiste en un brazo mecánico que sostiene un display a través del cual al girarlo se puede observar el entorno del mundo virtual en el cual se está; debido a que su peso es soportado por el brazo mecánico y no por el usuario, como ocurre con el casco, este puede ser un equipo de mayor complejidad y contenido electrónico, lo cual se traduce en ventajas tales como la obtención de una mejor solución. A continuación presentamos algunas características de estos equipos.
-            </p>
-            
-            
-            <p><em>Visión estereoscópica:</em></p>
-            <p>Es la sensación de ver una determinada imagen en 3 dimensiones, esto se logra haciendo una representación igual para cada ojo de la imagen que se va a observar, estas representaciones son posteriormente proyectadas desde un mismo plano y separadas una distancia que está determinada por la distancia a la cual se encuentra el observador del plano de las imágenes. Desde este punto de vista, también existen equipos de visión monocular a través de los cuales se visualizan los objetos en la forma habitual.</p>
-            
-            <p><em>Binoculares:</em></p>
-            <p>Son equipos que constan de una pantalla individual para cada ojo, para el funcionamiento de la visión estereoscópica, es necesario tener un equipo que tenga esta característica; para equipos de visión monoscópica esta característica es opcional. Así mismo, también existen equipos monoculares, los cuales constan de una sola pantalla para ambos ojos.</p>
 
-        </article>    
-   
-    </section>
-    
-    
-    <section>
-        <article> 
-        <h3><strong>Para audición</strong></h3>
-                <img src="imges/audi.jpg" alt="Audición" />
-        <p>Los audífonos son el equipo básico empleado para escuchar los sonidos propios de un ambiente virtual. A continuación se presentan algunas variantes de estos equipos:</p>
-            
-        <p><em>Audífonos convencionales:</em></p>
-        <p>Son los audífonos de uso más corriente, a través de estos se escucha el sonido simulado de los objetos sin identificar auditivamente el punto de ubicación del mismo.</p>
-        </article>    
-           
-    </section>
-    
-     <section>
-        <article>        
-        <h3><strong>Para interactuar</strong></h3>
-            <img src="imges/inert1.jpg" width="320" height="210" alt="Interactuar" />
-            <img src="imges/inter2.jpg" alt="Interactuar2" />
-        <p>
-            En la actualidad la realidad virtual esta haciendo uso de guantes y vestidos como medio para interactuar en un ambiente virtual, para lograr esto, estos dispositivos se comportan inicialmente como dispositivos de entrada que le permiten al computador conocer la ubicación del usuario dentro del ambiente virtual, así mismo, le permiten al usuario ubicarse en el medio e interactuar con el y en algunos casos recibir ciertos estímulos donde estos dispositivos se convierten en dispositivos de salida. Algunas sensaciones o estímulos que se pueden recibir son:<br><br>
+    <div id="contenido">
 
-            Sensación de estar sosteniendo un objeto que se ha cogido dentro del ambiente virtual, esto se logra gracias a unas almohadillas que se inflan en el guante y dan la sensación de percibir un peso. También se puede llegar a percibir la rugosidad y forma propias de objetos situados en el interior del ambiente virtual, lo cual se logra gracias a que algunos dispositivos tienen partes de aleaciones con memoria que tras variaciones en la temperatura toman formas que se les han practicado con anterioridad.</p>
-        
-         </article>    
-           
-    </section>
-    
-    
-        
-    
-   <footer>
-       <p> &#8226; <strong>Estudiante:</strong> <em>Jorge Rene Arevalo Pañi</em>  &#8226; <strong>Organización:</strong> Universidad Politecnica Salesiana</p>
-       <p> &#8226; <strong>Correo:</strong><a href="mailto:jarevalop1@est.ups.edu.ec"> jarevalop1@est.ups.edu.ec </a> &#8226; <strong>Telf:</strong> <a href=”tel:096-835-6328”> 096-835-6328</a></p>
-       <p>&copy;Todos los derechos reservados</p>
+        <section>
 
-   </footer>
+            <article>
+                <h1>Equipos utilizados para la realidad virtual</h1>
+
+                <h2><strong>Para visión</strong></h2>
+                <img class="imag3" src="imges/vision1.jpg" alt="Equipos utilizados para la realidad virtual" />
+                <img class="imag3" src="imges/vision2.jpeg" width="500" height="300"
+                    alt="Equipos utilizados para la realidad virtual2" />
+
+
+                <h3>La realidad virtual en el área de la visión trabaja básicamente con dos tipos de implementos: cascos
+                    y
+                    boom, este último es un equipo que consiste en un brazo mecánico que sostiene un display a través
+                    del
+                    cual al girarlo se puede observar el entorno del mundo virtual en el cual se está; debido a que su
+                    peso
+                    es soportado por el brazo mecánico y no por el usuario, como ocurre con el casco, este puede ser un
+                    equipo de mayor complejidad y contenido electrónico, lo cual se traduce en ventajas tales como la
+                    obtención de una mejor solución. A continuación presentamos algunas características de estos
+                    equipos.
+                </h3>
+
+
+                <h2><em>Visión estereoscópica:</em></h2>
+                <h3>Es la sensación de ver una determinada imagen en 3 dimensiones, esto se logra haciendo una
+                    representación
+                    igual para cada ojo de la imagen que se va a observar, estas representaciones son posteriormente
+                    proyectadas desde un mismo plano y separadas una distancia que está determinada por la distancia a
+                    la
+                    cual se encuentra el observador del plano de las imágenes. Desde este punto de vista, también
+                    existen
+                    equipos de visión monocular a través de los cuales se visualizan los objetos en la forma habitual.
+                </h3>
+
+                <h2><em>Binoculares:</em></h2>
+                <h3>Son equipos que constan de una pantalla individual para cada ojo, para el funcionamiento de la visión
+                    estereoscópica, es necesario tener un equipo que tenga esta característica; para equipos de visión
+                    monoscópica esta característica es opcional. Así mismo, también existen equipos monoculares, los
+                    cuales
+                    constan de una sola pantalla para ambos ojos.</h3>
+
+            </article>
+
+        </section>
+
+
+        <section>
+            <article>
+                <h2><strong>Para audición</strong></h2>
+                <img class="imag1" src="imges/audi.jpg" alt="Audición" />
+                <h3>Los audífonos son el equipo básico empleado para escuchar los sonidos propios de un ambiente virtual.
+                    A
+                    continuación se presentan algunas variantes de estos equipos:</h3>
+
+                <h2><em>Audífonos convencionales:</em></h2>
+                <h3>Son los audífonos de uso más corriente, a través de estos se escucha el sonido simulado de los
+                    objetos
+                    sin identificar auditivamente el punto de ubicación del mismo.</h3>
+            </article>
+
+        </section>
+
+        <section>
+            <article>
+                <h2><strong>Para interactuar</strong></h2>
+                <img class="imag1" src="imges/inert1.jpg" width="320" height="210" alt="Interactuar" />
+                <img class="imag1" src="imges/inter2.jpg" alt="Interactuar2" />
+                <h3>
+                    En la actualidad la realidad virtual esta haciendo uso de guantes y vestidos como medio para
+                    interactuar
+                    en un ambiente virtual, para lograr esto, estos dispositivos se comportan inicialmente como
+                    dispositivos
+                    de entrada que le permiten al computador conocer la ubicación del usuario dentro del ambiente
+                    virtual,
+                    así mismo, le permiten al usuario ubicarse en el medio e interactuar con el y en algunos casos
+                    recibir
+                    ciertos estímulos donde estos dispositivos se convierten en dispositivos de salida. Algunas
+                    sensaciones
+                    o estímulos que se pueden recibir son:<br><br>
+
+                    Sensación de estar sosteniendo un objeto que se ha cogido dentro del ambiente virtual, esto se logra
+                    gracias a unas almohadillas que se inflan en el guante y dan la sensación de percibir un peso.
+                    También
+                    se puede llegar a percibir la rugosidad y forma propias de objetos situados en el interior del
+                    ambiente
+                    virtual, lo cual se logra gracias a que algunos dispositivos tienen partes de aleaciones con memoria
+                    que
+                    tras variaciones en la temperatura toman formas que se les han practicado con anterioridad.</h3>
+
+            </article>
+
+        </section>
+
+
+    </div>
+    <footer class="pie">
+        <p> &#8226; <strong>Estudiante:</strong> <em>Jorge Rene Arevalo Pañi</em> &#8226; <strong>Organización:</strong>
+            Universidad Politecnica Salesiana</p>
+        <p> &#8226; <strong>Correo:</strong><a href="mailto:jarevalop1@est.ups.edu.ec"> jarevalop1@est.ups.edu.ec </a>
+            &#8226; <strong>Telf:</strong> <a href=”tel:096-835-6328”> 096-835-6328</a></p>
+        <p>&copy;Todos los derechos reservados</p>
+
+    </footer>
 </body>
+
 </html>

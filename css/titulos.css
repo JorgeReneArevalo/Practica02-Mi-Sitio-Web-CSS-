@@ -7,8 +7,8 @@ h1 {
 }
 
 h2 {
-	color:green; 
-	text-decoration :underline overline green; 
+	color:brown; 
+	text-decoration : overline blueviolet; 
 	font-size: 30px; font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif ; 
 }
 
@@ -36,8 +36,13 @@ p {
 
 h4 span {
 	text-align: justify; 
-	color:slateblue ; 
+	color:rgb(66, 52, 2); 
 	font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif ;
+}
+h5 {
+	color:rgb(255, 70, 79); 
+	text-decoration : overline rgb(45, 14, 102); 
+	font-size: 30px; font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif ; 
 }
 
 
